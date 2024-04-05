@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="lofi">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joey Rapista</title>
+    <link rel="icon" type="image/png" href="joey-logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.3/dist/full.min.css" rel="stylesheet" type="text/css" /> 
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-base-200">  
+    <!-- NAV START -->
+    <div class="navbar bg-base-100">
+        <div class="container mx-auto ">
+            <div class="flex-1">
+                <div class="avatar">
+                    <div class="w-10 rounded">
+                        <img src="joey-logo.png" alt="Tailwind-CSS-Avatar-component" />
+                    </div>
+                </div> 
+            </div>
+            <div class="flex-none">
+                <ul class="menu menu-horizontal px-1">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        </div>
+    <!-- NAV END -->  
+
+ 
+    <!-- HERO START --> 
+    <section class="container mx-auto">
+        <div class="hero min-h-96">
+            <div class="hero-content text-center">
+                <div class="max-w-md">
+                    <h1 class="text-5xl font-bold">Hello there!</h1>
+                    <p class="py-6 ">
+                        My name is <strong><a class="underline" href="https://www.linkedin.com/in/joey-mirasol-rapista/" target="_blank">Joey Rapista</a></strong>, a Junior Software Developer from Davao City, Philippines.
+                    </p>
+                    <div class="flex gap-2 justify-center">
+                        <a href="https://github.com/r-joey" target="_blank">
+                            <div class="avatar"> 
+                                <div class="w-8 rounded">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Tailwind-CSS-Avatar-component" />
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/joey-mirasol-rapista/" target="_blank">
+                            <div class="avatar">
+                                <div class="w-8 rounded">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/2048px-LinkedIn_icon_circle.svg.png" alt="Tailwind-CSS-Avatar-component" />
+                                </div>
+                            </div>
+                        </a>
+                        <a href="mailto:joey.mirasol.rapista@gmail.com" target="_blank">
+                            <div class="avatar">
+                                <div class="w-8 rounded">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" alt="Tailwind-CSS-Avatar-component" />
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- <a class="btn btn-primary" href="mailto:recipient@example.com" target="_blank">
+                        Contact me
+                    </a> -->
+                </div>
+            </div>
+        </div>
+    </section>  
+    <!-- HERO END -->
+
+    <!-- PROJECTS START --> 
+    <section id="projects" class="container mx-auto py-12">
+        <div class="mx-auto flex max-w-[58rem] flex-col mb-4 items-center space-y-4 text-center">
+            <h2 class="font-heading text-lg leading-[1.1] sm:text-1xl md:text-3xl">My Projects</h2> 
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            
+            <div class="relative overflow-hidden rounded-lg border border-gray-300 bg-white mx-4 lg:mx-0 p-2 shadow-lg">
+                <div class="flex flex-col justify-between rounded-md p-2">
+                     
+                    <div class="space-y-2 text-sm text-muted-foreground">
+                         <div class="flex justify-between">
+                             <h3 class="font-bold text-lg">
+                                 <a href="https://clash-joeyrapista.vercel.app/" target="_blank" class="underline">Clash</a> 
+                             </h3>
+                             <span class="text-xs font-thin mt-1">JAN 2024</span>
+                         </div>
+                        <p >
+                            A tournament management app. It supports <strong>Single Elimination</strong>, <strong>Double Elimination</strong>, and <strong>Round Robin</strong>. I made this project mainly to practice Javascript, SvelteKit, and Pocketbase.
+                        </p>
+                         <br>
+                        <div class="flex gap-2">  
+                            <div class="avatar tooltip" data-tip="Javascript">
+                                <div class="w-8 rounded">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="Tailwind-CSS-Avatar-component" />
+                                </div>
+                            </div>
+                            <a href="https://kit.svelte.dev/" target="_blank">
+                                <div class="avatar tooltip" data-tip="SvelteKit for Frontend">
+                                    <div class="w-8 rounded">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Svelte_logo_by_gengns.svg/640px-Svelte_logo_by_gengns.svg.png" alt="Tailwind-CSS-Avatar-component" />
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://pocketbase.io/" target="_blank">
+                                <div class="avatar tooltip" data-tip="Pocketbase for Backend">
+                                    <div class="w-8 rounded">
+                                        <img src="https://seeklogo.com/images/P/pocketbase-logo-CA73994F09-seeklogo.com.png" alt="Tailwind-CSS-Avatar-component" />
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://vercel.com/" target="_blank">
+                                <div class="avatar tooltip" data-tip="Deployed on Vercel">
+                                    <div class="w-8 rounded">
+                                        <img src="https://www.svgrepo.com/show/327408/logo-vercel.svg" alt="Tailwind-CSS-Avatar-component" />
+                                    </div>
+                                </div> 
+                            </a>
+                            <a href="https://github.com/r-joey/clash" target="_blank">
+                                <div class="avatar tooltip" data-tip="Code on Github">
+                                    <div class="w-8 rounded">
+                                        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Tailwind-CSS-Avatar-component" />
+                                    </div>
+                                </div>  
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            
+       
+           
+        </div>
+    </section>
+       
+    <!-- PROJECTS END -->
+
+
+    <section id="experience" class="container pb-96 lg:mx-auto py-12">
+
+        <div class="mx-auto flex max-w-[58rem] flex-col mb-4 items-center space-y-4 text-center">
+            <h2 class="font-heading text-lg leading-[1.1] sm:text-1xl md:text-3xl">My Experience</h2> 
+        </div>
+
+        <div class="relative border-2 rounded-md border-gray-300 p-4 mx-8 lg:mx-0">
+            <div> 
+                <div class="mb-4">
+                    <h3 class="font-semibold lg:font-bold lg:text-lg">Junior Software Developer </h3>
+                    <h4 class="text-sm italic text-gray-600">July 2022 - Present</h4> 
+                    <h3 class="font-bold underline hover:cursor-pointer"><a target="_blank" href="https://www.inriver.com/">INRIVER</a></h3>
+                </div> 
+                <div class="mx-4 mb-10 lg:mb-0 text-sm lg:text-base">
+                    <ul class="list-disc space-y-2">
+                        <li>Developing spiders or web scrapers to extract data from websites (e-commerce sites) using <strong>Python</strong> & <strong>Javascript</strong>.</li>
+                        <li>Writing clean and efficient code to implement bug fixes and improvements.</li>
+                        <li>Testing and debugging software to ensure its functionality and reliability.</li>
+                        <li>Utilizing <strong>Git</strong> for version control and managing code repositories</li>
+                        <li>Using <strong>DBeaver</strong> and <strong>MSSQL</strong> studio for database management and querying</li>
+                        <li>Working with <strong>RabbitMQ</strong> for messaging and queuing systems</li>
+                        <li>Leveraging <strong>Postman</strong> for API testing and integration</li>
+                        <li>Accessing VMs using <strong>PuTTY</strong></li>
+                    </ul> 
+                </div>
+            </div>
+            <div class="absolute bottom-0 right-0 me-2">
+                <div class="flex gap-2 mb-2">
+                    <div class="avatar tooltip" data-tip="Pythno">
+                        <div class="w-8 rounded">
+                            <img src="https://w7.pngwing.com/pngs/447/294/png-transparent-python-javascript-logo-clojure-python-logo-blue-angle-text-thumbnail.png" alt="Tailwind-CSS-Avatar-component" />
+                        </div>
+                    </div>
+                    <div class="avatar tooltip" data-tip="Javascript">
+                        <div class="w-8 rounded">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="Tailwind-CSS-Avatar-component" />
+                        </div>
+                    </div>
+                    <div class="avatar tooltip" data-tip="Git">
+                        <div class="w-8 rounded">
+                            <img src="https://e7.pngegg.com/pngimages/713/558/png-clipart-computer-icons-pro-git-github-logo-text-logo-thumbnail.png" alt="Tailwind-CSS-Avatar-component" />
+                        </div>
+                    </div>
+                    <div class="avatar tooltip" data-tip="DBeaver">
+                        <div class="w-8 rounded">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/DBeaver_logo.svg/1200px-DBeaver_logo.svg.png" alt="Tailwind-CSS-Avatar-component" />
+                        </div>
+                    </div> 
+                    <div class="avatar tooltip" data-tip="RabbitMQ">
+                        <div class="w-8 rounded">
+                            <img src="https://cdn.freebiesupply.com/logos/large/2x/rabbitmq-logo-svg-vector.svg" alt="Tailwind-CSS-Avatar-component" />
+                        </div>
+                    </div>
+                    <div class="avatar tooltip" data-tip="Postman">
+                        <div class="w-8 rounded">
+                            <img src="https://cdn.worldvectorlogo.com/logos/postman.svg" alt="Tailwind-CSS-Avatar-component" />
+                        </div>
+                    </div>
+                    <div class="avatar tooltip" data-tip="PuTTY">
+                        <div class="w-8 rounded">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/PuTTY_Icon.svg/2048px-PuTTY_Icon.svg.png" alt="Tailwind-CSS-Avatar-component" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+
+    </section>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          const links = document.querySelectorAll('a[href^="#"]');
+          links.forEach(link => {
+            link.addEventListener('click', function(e) {
+              e.preventDefault();
+              const targetId = this.getAttribute('href').substring(1);
+              const targetElement = document.getElementById(targetId);
+              if (targetElement) {
+                const offsetTop = targetElement.offsetTop;
+                window.scrollTo({
+                  top: offsetTop,
+                  behavior: 'smooth' // For smooth scrolling, if supported
+                });
+              }
+            });
+          });
+        });
+      </script>
+      
+</body>
+</html>
